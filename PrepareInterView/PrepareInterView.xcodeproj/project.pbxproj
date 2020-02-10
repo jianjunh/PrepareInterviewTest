@@ -15,6 +15,8 @@
 		B946AC0423F0261E00A2BBB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AC0323F0261E00A2BBB2 /* main.m */; };
 		B946AC0E23F0261E00A2BBB2 /* PrepareInterViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AC0D23F0261E00A2BBB2 /* PrepareInterViewTests.m */; };
 		B946AC1923F0261E00A2BBB2 /* PrepareInterViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AC1823F0261E00A2BBB2 /* PrepareInterViewUITests.m */; };
+		B946AC2823F0536B00A2BBB2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AC2723F0536B00A2BBB2 /* Person.m */; };
+		B946AC2B23F06A1200A2BBB2 /* Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AC2A23F06A1200A2BBB2 /* Chinese.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B946AC1423F0261E00A2BBB2 /* PrepareInterViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrepareInterViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B946AC1823F0261E00A2BBB2 /* PrepareInterViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrepareInterViewUITests.m; sourceTree = "<group>"; };
 		B946AC1A23F0261E00A2BBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B946AC2623F0536B00A2BBB2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B946AC2723F0536B00A2BBB2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B946AC2923F06A1200A2BBB2 /* Chinese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chinese.h; sourceTree = "<group>"; };
+		B946AC2A23F06A1200A2BBB2 /* Chinese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chinese.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				B946ABF523F0261D00A2BBB2 /* AppDelegate.m */,
 				B946ABF723F0261D00A2BBB2 /* ViewController.h */,
 				B946ABF823F0261D00A2BBB2 /* ViewController.m */,
+				B946AC2623F0536B00A2BBB2 /* Person.h */,
+				B946AC2723F0536B00A2BBB2 /* Person.m */,
+				B946AC2923F06A1200A2BBB2 /* Chinese.h */,
+				B946AC2A23F06A1200A2BBB2 /* Chinese.m */,
 				B946ABFA23F0261D00A2BBB2 /* Main.storyboard */,
 				B946ABFD23F0261E00A2BBB2 /* Assets.xcassets */,
 				B946ABFF23F0261E00A2BBB2 /* LaunchScreen.storyboard */,
@@ -264,6 +274,8 @@
 			files = (
 				B946ABF923F0261D00A2BBB2 /* ViewController.m in Sources */,
 				B946AC0423F0261E00A2BBB2 /* main.m in Sources */,
+				B946AC2823F0536B00A2BBB2 /* Person.m in Sources */,
+				B946AC2B23F06A1200A2BBB2 /* Chinese.m in Sources */,
 				B946ABF623F0261D00A2BBB2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y23BAYUVWX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PrepareInterView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y23BAYUVWX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PrepareInterView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
