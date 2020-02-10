@@ -19,5 +19,10 @@
  */
 @property (nonatomic,copy) NSString *name;
 
+/**
+ * 年龄
+ */
+@property (nonatomic,assign) NSInteger age;
+
 
 @end

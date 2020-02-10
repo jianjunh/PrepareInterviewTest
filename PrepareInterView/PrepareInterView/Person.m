@@ -34,4 +34,8 @@
 + (void)showCount {
     
 }
+
+- (NSString *)description {
+    return @"kkk";
+}
 @end
